@@ -53,6 +53,10 @@ export class DialogHolderComponent {
     setTimeout(()=>{
       dialogWrapper.container.nativeElement.classList.add('show');
       dialogWrapper.container.nativeElement.classList.add('in');
+      const firstInput = dialogWrapper.container.nativeElement.querySelector("input");
+      if (firstInput) {
+        (<HTMLElement>firstInput).focus();
+      }	
     });
     if(options.autoCloseTimeout) {
       setTimeout(()=>{

@@ -27,6 +27,10 @@ var DialogHolderComponent = (function () {
         setTimeout(function () {
             dialogWrapper.container.nativeElement.classList.add('show');
             dialogWrapper.container.nativeElement.classList.add('in');
+            var firstInput = dialogWrapper.container.nativeElement.querySelector("input");
+            if (firstInput) {
+                firstInput.focus();
+            }
         });
         if (options.autoCloseTimeout) {
             setTimeout(function () {
