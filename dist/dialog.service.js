@@ -39,7 +39,7 @@ var core_1 = require("@angular/core");
 var dialog_holder_component_1 = require("./dialog-holder.component");
 var dialog_component_1 = require("./dialog.component");
 var Observable_1 = require("rxjs");
-require("rxjs/add/operator/share");
+require("rxjs/internal/operators/share");
 var DialogServiceConfig = (function () {
     function DialogServiceConfig() {
         this.container = null;
