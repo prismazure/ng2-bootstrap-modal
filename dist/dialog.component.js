@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Observable_1 = require("rxjs/Observable");
-var Observer_1 = require("rxjs/Observer");
+var Observable_1 = require("rxjs");
+var Observer_1 = require("rxjs");
 var dialog_wrapper_component_1 = require("./dialog-wrapper.component");
 var dialog_service_1 = require("./dialog.service");
 var DialogComponent = (function () {
