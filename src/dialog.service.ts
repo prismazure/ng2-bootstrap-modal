@@ -3,7 +3,7 @@ import {
 } from "@angular/core";
 import { DialogHolderComponent } from "./dialog-holder.component";
 import { DialogComponent } from "./dialog.component";
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 import 'rxjs/add/operator/share';
 
 export interface DialogOptions {
