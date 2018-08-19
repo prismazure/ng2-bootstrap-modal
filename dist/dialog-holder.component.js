@@ -5,6 +5,7 @@ var dialog_component_1 = require("./dialog.component");
 var dialog_wrapper_component_1 = require("./dialog-wrapper.component");
 var Observable_1 = require("rxjs");
 require("rxjs/add/operator/take");
+require("rxjs/internal/operators/take");
 var dialog_service_1 = require("./dialog.service");
 var DialogHolderComponent = (function () {
     function DialogHolderComponent(resolver) {
