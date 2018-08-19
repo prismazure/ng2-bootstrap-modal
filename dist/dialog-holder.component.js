@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var dialog_component_1 = require("./dialog.component");
 var dialog_wrapper_component_1 = require("./dialog-wrapper.component");
-var Observable_1 = require("rxjs/Observable");
+var Observable_1 = require("rxjs");
 require("rxjs/add/operator/take");
 var dialog_service_1 = require("./dialog.service");
 var DialogHolderComponent = (function () {
