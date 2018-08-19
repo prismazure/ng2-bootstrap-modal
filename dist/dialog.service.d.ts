@@ -1,6 +1,6 @@
 import { ComponentFactoryResolver, ApplicationRef, Injector, Type } from "@angular/core";
 import { DialogComponent } from "./dialog.component";
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 import 'rxjs/add/operator/share';
 export interface DialogOptions {
     index?: number;
