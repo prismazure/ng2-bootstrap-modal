@@ -1,6 +1,6 @@
 import { ViewContainerRef, ComponentFactoryResolver, Type } from "@angular/core";
 import { DialogComponent } from "./dialog.component";
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import 'rxjs/add/operator/take';
 import { DialogOptions } from "./dialog.service";
 export declare class DialogHolderComponent {
